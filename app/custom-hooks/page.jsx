@@ -1,6 +1,6 @@
 'use client'
 import styles from '@/app/page.module.css'
-import useBrowserStorage from '../components/useLocalStorage'
+import useBrowserStorage from '../components/useBrowserStorage'
 import { useEffect } from 'react'
 
 

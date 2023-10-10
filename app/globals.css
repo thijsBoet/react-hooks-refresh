@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  button {
+    @apply mt-2 mb-3 py-2 px-4 bg-gray-500 text-white font-semibold rounded-md shadow-md hover:bg-white hover:text-gray-500 hover:shadow-md focus:ring-0 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 w-full max-w-[220px];
+  }
+
+  input {
+    @apply my-2 py-2 px-4  text-slate-800 font-semibold rounded-md shadow-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 w-full max-w-[220px];
+  }
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

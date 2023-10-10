@@ -1,11 +1,7 @@
-'use client';
-import { useState, useReducer } from 'react';
 import styles from '@/app/page.module.css';
 import WatchList from '../components/WatchList';
 
 export default function StateHooks() {
-  const [watchList, setWatchList] = useState([]);
-
 
 	return (
 		<main className={styles.main}>

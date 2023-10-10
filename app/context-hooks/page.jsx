@@ -18,6 +18,7 @@ export default function ContextHooks() {
         you need to provider that context to your components. Once the context is created, 
         and provided, you can use the useContext hook to consume the provided context. *Example
       </p>
+      
     </main>
   )
 }

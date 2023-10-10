@@ -1,21 +1,18 @@
-'use client'
-import { useRef } from "react";
+'use client';
+import { useEffect, useRef } from 'react';
 
-export default function InputRef(){
-    const inputRef = useRef(null);
+export default function InputRef() {
+	const inputRef = useRef(null);
 
-    function handleClick() {
-      inputRef.current.focus();
-    }
+	function handleClick() {
+    inputRef.current.focus();
+    console.log(inputRef.current);
+	}
 
-    console.log({inputRef})
-
-    return (
-        <>
-        <input ref={inputRef} />
-        <button onClick={handleClick}>
-          Focus
-        </button>
-      </>
-    )
+	return (
+		<>
+			<input ref={inputRef} />
+			<button onClick={handleClick}>Focus</button>
+		</>
+	);
 }
